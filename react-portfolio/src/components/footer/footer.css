@@ -1,5 +1,5 @@
 footer {
-  background: var(--color-primary);
+  background: var(--color-bg);
   opacity: 0.5;
   padding: 2rem 0;
   margin-top: 7rem;
@@ -10,18 +10,18 @@ footer {
 .footer__logo {
   text-align: center;
   font-size: 2rem;
-  color: var(--color-bg);
+  color: var(--color-primary);
   text-decoration: underline;
 }
 .footer__body {
   text-align: center;
   font-size: 0.8rem;
-  color: var(--color-bg);
+  color: var(--color-primary);
   padding-top: 1rem;
 }
 
 footer a {
-  color: var(--color-bg);
+  color: var(--color-primary);
 }
 
 .permalinks {

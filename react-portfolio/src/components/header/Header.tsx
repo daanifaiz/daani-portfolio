@@ -20,6 +20,12 @@ export default function Header(): JSX.Element {
         </a>
         <h3>I’m a product manager at Atlassian.</h3>
         <h3>Welcome to my portfolio. Feel free to take a look around</h3>
+        <p>
+          
+        </p>
+        <h3>My professional career ranges from designing implantable hearing
+          devices as a mechatronics engineer to managing shipping scalable,
+          innovative software solutions for Atlassian.</h3>
         <HeaderSocials />
       </div>
     </header>

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./nav.css";
+import { BsHouse } from "react-icons/bs";
+import { BsHammer} from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { SiMedium } from "react-icons/si";
 
@@ -8,7 +10,7 @@ export default function NAV(): JSX.Element {
   return (
     <nav>
       <a className={activeNav === "#" ? "active" : ""} href="/">
-        Daani Faiz
+        <BsHouse />
       </a>
       <br className="nav__gap"></br>
       <a
@@ -16,9 +18,8 @@ export default function NAV(): JSX.Element {
         href="#projects"
         onClick={() => setActiveNav("#projects")}
       >
-        Projects
+        <BsHammer/>
       </a>
-      <a href="#about">About</a>
       <br></br>
       <a href="https://medium.com/@daanifaiz">
         <SiMedium />

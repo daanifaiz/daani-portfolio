@@ -1,6 +1,6 @@
 import React from "react";
 import "./projects.css";
-const cochlearImplant = require("../../assets/cochlearImplant.png");
+const cochlearImplantCartoon = require("../../assets/cochlearImplantCartoon.jpg");
 const habitTracker = require("../../assets/habit_tracker_mobile_hf.png");
 const breathlyserOutputGraph = require("../../assets/breathlyserOutputGraph.png");
 
@@ -13,7 +13,7 @@ export default function Projects(): JSX.Element {
           <img
             className="projects__image"
             alt="cochlear implant"
-            src={cochlearImplant}
+            src={cochlearImplantCartoon}
           ></img>
         </div>
         <div className="flex-item-right projects__rightcolumn">
