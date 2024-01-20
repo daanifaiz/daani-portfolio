@@ -6,7 +6,7 @@ export default function Footer(): JSX.Element {
     <footer>
       <div className="footer__body">
         This simple portfolio was developed using node.js and typescript.<p></p>{" "}
-        Reach out over LinkedIn if found it interesting and would like to get in
+        Reach out over LinkedIn to get in
         touch!
       </div>
 

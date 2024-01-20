@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css";
 const cochlearImplantCartoon = require("../../assets/cochlearImplantCartoon.jpg");
-const habitTracker = require("../../assets/habit_tracker_mobile_hf.png");
+const cartoonHabitTracker = require("../../assets/cartoonHabitTracker.png");
 const breathlyserOutputGraph = require("../../assets/breathlyserOutputGraph.png");
 
 export default function Projects(): JSX.Element {
@@ -10,14 +10,7 @@ export default function Projects(): JSX.Element {
       <h1 className="projects__title">Featured Projects</h1>
       <div className="flex-container">
         <div className="flex-item-left">
-          <img
-            className="projects__image"
-            alt="cochlear implant"
-            src={cochlearImplantCartoon}
-          ></img>
-        </div>
-        <div className="flex-item-right projects__rightcolumn">
-          <h2 className="projects__subheading">
+        <h2 className="projects__subheading">
             Cochlear: N7 for N22 Lead Engineer
           </h2>
           <h4 className="projects__body">
@@ -33,16 +26,19 @@ export default function Projects(): JSX.Element {
           >
             Explore
           </a>
+          <img
+            className="projects__image"
+            alt="cochlear implant"
+            src={cochlearImplantCartoon}
+          ></img>
         </div>
-      </div>
-      <div className="flex-container">
-        <div className="flex-item-left projects__rightcolumn">
+        <div className="flex-item-right projects__rightcolumn">
           <h2 className="projects__subheading">
             Holitic: Health Tech Startup Founder
           </h2>
           <h4 className="projects__body">
-            Was the Founder and CEO of a startup that released to market a
-            recomednation engine driven habit tracker and subscription gym pass.
+            Founded a startup and led a team of to release to market an AI driven
+             habit tracker. We partnered with communities around Australia to help people build positive daily habits.
           </h4>
           <a
             href="https://play.google.com/store/apps/details?id=com.holitic"
@@ -52,17 +48,28 @@ export default function Projects(): JSX.Element {
           >
             Explore
           </a>
-        </div>
-        <div className="flex-item-right">
           <img
             className="projects__image"
             alt="habit tracker"
-            src={habitTracker}
+            src={cartoonHabitTracker}
           ></img>
+        </div>
+        <div className="flex-item-right">
+          
         </div>
       </div>
       <div className="flex-container">
+        
+      </div>
+      <div className="flex-container">
         <div className="flex-item-left">
+        <h2 className="projects__subheading">Alcolizer Technology: R&D</h2>
+          <h4 className="projects__body">
+            Operating as a research mechatronics engineer, developed a novel
+            machine learning algorithm to detect mouth alcohol presence as part
+            of a honours engineering thesis.
+          </h4>
+          <div className="projects__disabled">Embargoed until Nov 2026</div>
           <img
             className="projects__image"
             alt="breathlyser output graph"
@@ -70,13 +77,7 @@ export default function Projects(): JSX.Element {
           ></img>
         </div>
         <div className="flex-item-right projects__rightcolumn">
-          <h2 className="projects__subheading">Alcolizer Technology: R&D</h2>
-          <h4 className="projects__body">
-            Operating as a research mechatronics engineer, developed a novel
-            machine learning algorithm to detect mouth alcohol presence as part
-            of a honours engineering thesis.
-          </h4>
-          <div className="projects__disabled">Embargoed until Nov 2026</div>
+        
         </div>
       </div>
     </section>
